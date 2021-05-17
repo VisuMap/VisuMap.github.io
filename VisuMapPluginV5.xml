@@ -37,12 +37,11 @@ A collection of metrics for graph structural data (a la adjacency matrix importe
 	<Plugin Name="Custom Importer" Version="2.13" Source="&SrcPx;CustomImporter.zip">
 A collection of custom importers. Supported file formats: arff, cel, sdf, mol, fcs, mtx and a configuable CSV format filter.
 	</Plugin>
-
+<!--
 	<Plugin Name="Microscopy" Version="1.3" Source="&SrcPx;MicroscopySetup.msi">
 A plugin to support HCS (High Content Screening) analysis in microsocopy related research. This package also contains plugins for third part software packages like ImageJ, HCDC, KNIME to simplify integration.
 	</Plugin>
 
-<!--
 	<Plugin Name="Image Analysis" Version="2.5" Source="&SrcPx;VmImageProcess.zip">
 This plugin uses the OpenCV library to provide varioius kind of image processing services, like filgering images, identifying and analyzing blobs. This plugin only supports 32bit VisuMap version. (x86)
 	</Plugin>
