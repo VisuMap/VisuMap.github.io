@@ -1,101 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE PluginInfo [
-<!ENTITY SrcPx "https://visumap.github.io/">
+<!ENTITY SrcPx "https://visumap.github.io/images/">
 ]>
 <PluginInfo xmlns="urn:VisuMap.Technologies:VisuMap">
-  <PluginList>
-	<Plugin Name="Clip Recorder" Version="1.9" Source="&SrcPx;ClipRecorder.zip">
+
+<PluginList>
+
+<Plugin Name="Clip Recorder" Version="1.9" Source="&SrcPx;ClipRecorder.zip">
 A plugin to record map snapshots during the MDS learning process.
-	</Plugin>
+</Plugin>
 
-<!--
-	<Plugin Name="ILNumericsPlugin" Version="1.4" Source="&SrcPx;ILNumericsPlugin.zip">
-A plugin to accelerate some numerical calculation with hardware specific optimization. This plugin only supports 32bit VisuMap version. (x86) 
-	</Plugin>
-
-	<Plugin Name="MathNet Numerics" Version="1.0" Source="&SrcPx;MathnetNumerics.zip">
-A plugin for 64bit VisuMap to accelerate numerical calculation. The plugin uses MathNet library. This plugin only supports 64bit VisuMap version. (x64)
-	</Plugin>
-
-	<Plugin Name="VisuMap 64bits" Version="4.5" Source="&SrcPx;VisuMap4_5_64.zip">
-Legacy 64bits version of VisuMap. A separate program will be installed.
-	</Plugin>
--->
-
-	<Plugin Name="Binary Metrics" Version="2.3" Source="&SrcPx;BinaryMetrics.zip">
+<Plugin Name="Binary Metrics" Version="2.3" Source="&SrcPx;BinaryMetrics.zip">
 A collection of metrics for binary data (e.g. Jacard, Tanimoto distances.) with support for sparse set encoding.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Numeric Metrics" Version="1.6" Source="&SrcPx;NumericMetrics.zip">
+<Plugin Name="Numeric Metrics" Version="1.6" Source="&SrcPx;NumericMetrics.zip">
 A collection of metrics for numerical data (e.g. harmonical mean, city-block distance.)
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Graph Metrics" Version="1.3" Source="&SrcPx;GraphMetrics.zip">
+<Plugin Name="Graph Metrics" Version="1.3" Source="&SrcPx;GraphMetrics.zip">
 A collection of metrics for graph structural data (a la adjacency matrix imported from sdf files, metrics include shortest path distance, resistance distances.)
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Custom Importer" Version="2.13" Source="&SrcPx;CustomImporter.zip">
+<Plugin Name="Custom Importer" Version="2.13" Source="&SrcPx;CustomImporter.zip">
 A collection of custom importers. Supported file formats: arff, cel, sdf, mol, fcs, mtx and a configuable CSV format filter.
-	</Plugin>
-<!--
-	<Plugin Name="Microscopy" Version="1.3" Source="&SrcPx;MicroscopySetup.msi">
-A plugin to support HCS (High Content Screening) analysis in microsocopy related research. This package also contains plugins for third part software packages like ImageJ, HCDC, KNIME to simplify integration.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Image Analysis" Version="2.5" Source="&SrcPx;VmImageProcess.zip">
-This plugin uses the OpenCV library to provide varioius kind of image processing services, like filgering images, identifying and analyzing blobs. This plugin only supports 32bit VisuMap version. (x86)
-	</Plugin>
-
-	<Plugin Name="HaploExplorer" Version="1.4" Source="&SrcPx;HaploExplorer.zip">
-Implements services for haplotype data analysis:  a custom importer to import data downloaded from HapMap site;  and  the metric "LD R-Squared"
-	</Plugin>
--->
-
-	<Plugin Name="Wave Transforms" Version="1.2" Source="&SrcPx;WaveTransforms.zip">
+<Plugin Name="Wave Transforms" Version="1.2" Source="&SrcPx;WaveTransforms.zip">
 A set of wave transformations like Fourier and Wavelet transformations. See the help menu of VisuMap "About WaveTransforms" for more information after installed this plugin.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="MVA Plugin" Version="2.5" Source="&SrcPx;VmMultivariateAnalysis.zip">
+<Plugin Name="MVA Plugin" Version="2.5" Source="&SrcPx;VmMultivariateAnalysis.zip">
 Multivariate analysis: LDA (linear discriminant analysis); PLS (partial least squares) and CCA (canonic correlation analysis.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Data Generator" Version="1.5" Source="&SrcPx;DataGenerator.zip">
+<Plugin Name="Data Generator" Version="1.5" Source="&SrcPx;DataGenerator.zip">
 A plugin to generates various kind of dataset for experimental purposes.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Data Cleansing" Version="1.11" Source="&SrcPx;DataCleansing.zip">
+<Plugin Name="Data Cleansing" Version="1.11" Source="&SrcPx;DataCleansing.zip">
 A plugin for data cleansing services.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Custom Glyphs" Version="1.6" Source="&SrcPx;CustomGlyphSets.zip">
+<Plugin Name="Custom Glyphs" Version="1.6" Source="&SrcPx;CustomGlyphSets.zip">
 Some custom bitmap glyhsets.
-	</Plugin>
+</Plugin>
 
-<!--
-	<Plugin Name="Rdata Importer" Version="1.1" Source="&SrcPx;RdataImporter.zip">
-Provide service to import rdata format file of R system, R must be pre-installed. This plugin is only for 32bits VisuMap version. (x86)
-	</Plugin>
-
-	<Plugin Name="VisuMap 32bits" Version="5.0" Source="&SrcPx;VisuMap5_0_32.zip">
- Legacy 32bits version of VisuMap. A separate program will be installed. (x64)
-	</Plugin>
-
-	<Plugin Name="Python Script" Version="1.0" Source="&SrcPx;PythonScript.zip">
-Plugin for python scripting interface.  IronPyhton needs be installed separatly.
-	</Plugin>
--->
-
-	<Plugin Name="Genetic Analysis" Version="1.3" Source="&SrcPx;GeneticAnalysis.zip">
+<Plugin Name="Genetic Analysis" Version="1.3" Source="&SrcPx;GeneticAnalysis.zip">
 Plugin for various services related to genetics. Imorter for fasta, fastq and beggraph files.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Data Modeling" Version="1.4" Source="&SrcPx;DataModeling.zip">
+<Plugin Name="Data Modeling" Version="1.4" Source="&SrcPx;DataModeling.zip">
 Data modeling with deep artificial neural networks. TensorFlow version 1.12 must be installed.
-	</Plugin>
+</Plugin>
 
-	<Plugin Name="Single Cell Analysis" Version="1.1" Source="&SrcPx;SingleCellAnalysis.zip">
-		Services to facilitate single cell RNA sequence (scRNA-seq) analysis. Implements the SC.DualEmbedding and SC.DualCorrelation distances functions.
-	</Plugin>
+<Plugin Name="Single Cell Analysis" Version="1.1" Source="&SrcPx;SingleCellAnalysis.zip">
+Services to facilitate single cell RNA sequence (scRNA-seq) analysis. Implements the SC.DualEmbedding and SC.DualCorrelation distances functions.
+</Plugin>
 
-  </PluginList>
+</PluginList>
+
+<AppList>
+<AppInfo Name="VisuMap" Version="5.0" Builder="953" Source="&SrcPx;VisuMap5_0.zip"/>
+</AppList>
+
 </PluginInfo>
