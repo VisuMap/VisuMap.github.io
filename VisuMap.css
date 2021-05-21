@@ -122,3 +122,9 @@ A.menulink:visited,
     color: #FFFFFF;
     background: url(/images/MenuForeground.png);
 }
+
+iframe { 
+    border: 0px; 
+    width: 640px;
+    height: 360;
+}
