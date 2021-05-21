@@ -1,0 +1,125 @@
+body {
+    margin:0;
+    padding:0;
+    font:10px arial, sans-serif;
+}
+
+.BaseTable, .LowTable {
+ width:900px; 
+ border-width:0;
+ border-collapse:collapse;
+}
+
+.BaseTable TD, .LowTable TD {
+  padding:0;
+}
+
+.ContentMenu, .ContentPlain {
+    vertical-align:top;
+    width:880px;
+    padding:0;
+    spacing:0;
+    margin:0;
+}
+
+.TextTable TD {
+    padding: 3pt;
+}
+
+.TopMenu A, .TopMenuH A {
+    padding-right:10px;
+    padding-left:10px;
+}
+
+/* Default width for table or div included content area. 
+  ContentPlain and CotentMenu are for the parent TD element */
+.ContentTable {
+    width:650px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+
+A {
+    text-decoration:none;
+}
+
+A.menulink,
+A.menulink:visited,
+{
+    text-decoration:none;
+    color:darkblue;
+}
+
+.TopMenu A, .SideMenu A { 
+    color:#000040; 
+    text-decoration:none; 
+}
+
+.TopMenu A:hover, .SideMenu A:hover {
+    color:blue;
+}
+
+.TopMenuH A, .SideMenuH A {
+    color:White;
+    text-decoration:none;
+}
+
+.PageTitle {
+    color:CCFF99;
+    font-size:16pt;
+    height:46;
+    padding-left:30;
+}
+
+#menurow {	
+    margin: 0;
+	padding: 0;
+}
+
+#menurow li {	
+    margin: 0;
+	pading: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+}
+
+#menurow li a.menu {	
+    display: block;
+	text-align: center;
+    background:url(/images/MenuForeground.png);
+	padding: 3px 0px;
+	margin: 0 0 0 0;
+	color: darkblue;
+	width: 100px;
+	text-decoration: none;
+}
+
+#menurow li a.menu:hover {	
+    background: url(/images/MenuHighlight.png);
+}
+
+.submenu
+{	background: #C0F0C0;
+	border: 1px solid #5970B2;
+	visibility: hidden;
+	position: absolute;
+	z-index: 3;
+}
+
+.submenu a {
+    display: block;
+    font: 11px arial;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px;
+    color: darkblue;
+    width: 120px;
+}
+
+.submenu a:hover {	
+    color: #FFFFFF;
+    background: url(/images/MenuForeground.png);
+}

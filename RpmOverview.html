@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title></title></head>
+
+<body>
+             
+<table class="ContentTable">
+         <tbody>
+           <tr>
+             <td>                                                 
+      <div align="center"><big><b>A Brief Introduction to Relational Perspective
+   Map</b></big> <br>
+             </div>
+             <br>
+       Relational perspective map (RPM), developed by James X. Li[1] is a general purpose
+   method for visualizing distance information of data points in high dimensional
+   spaces. <br>
+             <br>
+       The starting point of the RPM algorithm is a set of data point<i>
+s<sub>i,</sub></i><i>    i</i>=1,...,<i>N</i>, and a distance matrix <i>&#948;<sub>ij</sub></i>.
+The matrix&nbsp;<i>&#948;<sub>ij</sub></i>,  called the relational distance, is
+the numeric representation of a relationship  between the data points. The
+goal of the RPM algorithm is to map the data  points <i>s<sub>i</sub></i>
+into a two or three dimensional map so that Euclidean  distances <i>d<sub>ij</sub></i> 
+between the image points visually approaches        <i>&#948;<sub>ij </sub></i>as 
+much as possible. The resulting lower dimensional  map is called Relational Perspective Map, the matrix <i>d<sub>ij</sub></i>  is called the Image Distance Matrix. From geometric point of view, an RPM map attempts to preserve as much 
+as possible the distance information within the original  dataset.<br>
+             <br>
+       The following figure demonstrates how the RPM algorithm works to create 2D maps: 
+  it first maps data points to the surface of a torus, then unfolds the torus
+   surface by a vertical and a horizontal cut. This second step is relatively&nbsp;straightforward (see <a href="index.html?UnwrappingTorus" target="_blank">here</a> for a short video showing the transformation between
+ rectangle and torus), the innovation of the RPM algorithm lies in mapping the data
+points  to the torus surface so that the distances between the image points
+resembles  the distances between data points.<br>
+             <br>
+                                                       
+      <div align="center"><img alt="Concept of Relational Perspective Map" src="/images/RPMConcept.png" height="178" width="550">
+       &nbsp; <br>
+             </div>
+             <br>
+       In order the find the best mapping, the RPM algorithm defines an energy 
+function   as follows:<br>
+                                                       
+      <div align="center"><img alt="RPM energy function" src="/images/RpmEnergyForm.png" height="70" width="380">
+       &nbsp; &nbsp; <br>
+             </div>
+       where <i>p </i>is an algorithm parameter called the rigidity, <i>d<sub>ij 
+         </sub>&nbsp;</i>is the geodesic block distance between two image 
+points  on the torus surface. The RPM algorithm then uses gradient descent 
+optimization  method to find the lowest-energy configuration. The rigidity 
+parameter,  which is normally a value between -1 and +1, alters the energy 
+landscape in a global manner, so that the resulting RPM maps have different 
+characteristics.<br>
+             <br>
+       To better understand the RPM algorithm it is helpful to consider the 
+ image  points on the torus as a force-directed, multi-particale system with 
+ mutual  repulsive forces between them; and consider the energy&nbsp;<i>E<sub>p</sub></i> 
+   as a kind of total potential energy. According to physics, the repulsive
+   force is characterized as proportional to relational distance: <br>
+             <br>
+                                                       
+      <div align="center"><img alt="Force directing RPM simulations" src="/images/RpmForceForm.png" height="68" width="120">
+       <br>
+             <br>
+                                                       
+      <div align="left">The optimization strategy is to minimize the energy&nbsp;<i>E<sub>p</sub></i> by&nbsp;simulating a&nbsp;dynamic system directed by the force given by above form. Since
+points    with larger relational distances between them correspond to larger
+repulsive    force on the torus, their image points on the torus should &nbsp;be
+further    apart from each other.<br>
+             </div>
+             </div>
+             <br>
+The key idea of RPM algorithm is its exploitation of the properties of
+closed manifold (the torus) to keep the configuration in balance.
+(Competing approaches are identified in the next section.) Whereas
+other non-linear methods apply, directly or indirectly, attractive
+force to map closely related points to closely located positions,
+&nbsp;the RPM algorithm maps closely related points within a closely
+located area by modeling the collective repulsive force of all points.
+This approach makes&nbsp;RPM a true, and&nbsp;(as far as we know) the
+only, global mapping algorithm. <br>
+             <br>It should be noted here that the RPM
+algorithm relaxes one condition of the original problem setting: the
+resulting map is not a normal rectangle, but a torus. This means that
+the opposite edges of the map
+should be considered as contiguous or joined.<br>
+             <br>
+             <b>Related Methods:</b> <br>
+             <br>
+       Visualizing high dimensional data has been a major topic since many
+ decades.   A large group of methods target high dimensional data with sophisticated
+  rendering techniques like 3D landscapes, special glyphs, colors, and graphics
+  etc. Other methods approach the problem by reducing the dimensionality in
+a  generic way with few&nbsp;assumptions about data type. RPM algorithm belongs
+  to the latter group. The following is a short list of methods that&nbsp;directly
+  or indirectly reduce data dimensionality: <br>
+                                                       
+      <ul>
+               <li> Multidiemensional Scaling: Sammon Mapping, Curvilinear
+ Component   Analysis. </li>
+               <li> Self-Organzing Map. </li>
+               <li> Principal Component Analysis/Singulare Value Decomposition.
+           </li>
+               <li> Non-linear Projections: &nbsp;Local Linear Embedding. </li>
+               <li> Methods based on physical models: spring embedding model; 
+  force directed placement.<br>
+               </li>
+                                                       
+      </ul>
+             <b>References:<br>
+             </b>                                                 
+      <ol>
+               <li> <a name="RpmPaper"></a>James Xinzhi Li: Visualization 
+of  High  Dimensional Data with Relational Perspective Map. <a href="/images/RpmPublication.pdf"><i>Information Visualization</i>
+2004, Vol. 3, No. 1. 49-59</a>.</li>
+                                                       
+      </ol>
+          <br>
+          <br>
+             </td>
+           </tr>
+                           
+  </tbody>       
+</table>
+   <br>
+</body></html>
