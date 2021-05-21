@@ -74,14 +74,6 @@ function mclose()
 
 document.onclick = mclose; 
 
-function GetRandomVideo() {
-  var srcList = [ "-kL5wCViR6s", "u6qN-9JDm-A", "6Z9UAvoo8EA", "b_nJQX-uRo4", "m3vdXby_gxM", "ZeVLEMvwtMY",
-	"_8GPTqWZeLA", "SOf7dJAl8-I", "KRE_cMnIBkw", "BY6nGUY3J3A", "kmQOIsTj-HE", "NWV2kWqEB54",
-	"HEElHMVvxfc", "ouZf5SZQRfI", "8rdak8Pz_Mw", "BEARox4UwEk", "Urt2JPgrxUQ", ];
-  var idx = Math.floor(Math.random() * 100 ) % srcList.length;
-  return "http://www.youtube.com/embed/" + srcList[idx] + "?hd=1&vq=hd720";
-}
-
 function LoadContent() {
         var cc = document.getElementById("Content");
         var fs = window.location.href.split("?");
@@ -90,15 +82,12 @@ function LoadContent() {
 
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                        if (this.status == 200) {
-				var htmlStr = this.responseText;
-			        if (pg == "HomePage.html") 
-				       htmlStr = htmlStr.replace("xxxyyy", GetRandomVideo());
-                                cc.innerHTML = htmlStr;
-			} else if (this.status == 404)
-                                cc.innerHTML = "Page not found."
-                }
+	  if (this.readyState == 4) {
+	    if (this.status == 200) 
+	      cc.innerHTML = this.responseText;
+	    else if (this.status == 404)
+	      cc.innerHTML = "Page not found."
+	  }
         }
         xhttp.open("GET", pg, true);
         xhttp.send();
