@@ -4,25 +4,21 @@ body {
     font:10px arial, sans-serif;
 }
 
-.BaseTable, .LowTable {
+.BaseTable {
  width:900px; 
  border-width:0;
  border-collapse:collapse;
 }
 
-.BaseTable TD, .LowTable TD {
+.BaseTable TD {
   padding:0;
 }
 
-.ContentMenu, .ContentPlain {
+.ContentPlain {
     vertical-align:top;
     width:880px;
     padding:0;
     margin:0;
-}
-
-.TextTable TD {
-    padding: 3pt;
 }
 
 .TopMenu A, .TopMenuH A {
@@ -51,16 +47,16 @@ A.menulink:visited,
     color:darkblue;
 }
 
-.TopMenu A, .SideMenu A { 
+.TopMenu A { 
     color:#000040; 
     text-decoration:none; 
 }
 
-.TopMenu A:hover, .SideMenu A:hover {
+.TopMenu A:hover {
     color:blue;
 }
 
-.TopMenuH A, .SideMenuH A {
+.TopMenuH A {
     color:White;
     text-decoration:none;
 }
@@ -79,7 +75,7 @@ A.menulink:visited,
 
 #menurow li {	
     margin: 0;
-	pading: 0;
+	padding: 0;
 	list-style: none;
 	float: left;
 	font: bold 11px arial;
