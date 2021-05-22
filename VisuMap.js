@@ -83,9 +83,12 @@ function LoadContent() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
 	  if (this.readyState == 4) {
-	    if (this.status == 200) 
+	    if (this.status == 200) {
 	      cc.innerHTML = this.responseText;
-	    else if (this.status == 404)
+		  var ss = document.getElementById("PageScript");
+		  if ( ss != null)
+		  	eval( ss.innerText )
+		} else if (this.status == 404)
 	      cc.innerHTML = "Page not found."
 	  }
         }
