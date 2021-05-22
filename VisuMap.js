@@ -78,6 +78,8 @@ function LoadContent() {
         var cc = document.getElementById("Content");
         var fs = window.location.href.split("?");
         var pg = ( fs.length < 2 ) ? "HomePage" : fs[1]; 
+		fs = pg.split('&');
+		if ( fs.length > 1) pg = fs[0];
         pg += ".html";
 
         var xhttp = new XMLHttpRequest();

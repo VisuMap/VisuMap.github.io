@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <center>
+        <br><br><br>
+        <iframe id="VideoFrame" width=720 height=420></iframe>
+        </center>
+    </body>
+    <script id="PageScript">
+        var fs = window.location.href.split("&");
+        document.getElementById("VideoFrame").src = "/images/" + fs[1];
+    </script>
+</html>
