@@ -4,36 +4,9 @@ body {
     font:10px arial, sans-serif;
 }
 
-.BaseTable {
- width:900px; 
- border-width:0;
- border-collapse:collapse;
-}
-
-.BaseTable TD {
-  padding:0;
-}
-
-.ContentPlain {
-    vertical-align:top;
-    width:880px;
-    padding:0;
-    margin:0;
-}
-
 .TopMenu A, .TopMenuH A {
     padding-right:10px;
     padding-left:10px;
-}
-
-/* Default width for table or div included content area. 
-  ContentPlain and CotentMenu are for the parent TD element */
-.ContentTable {
-    width:650px;
-    margin-top:20px;
-    margin-left:20px;
-    margin-right:0px;
-    margin-bottom:20px;
 }
 
 A {
