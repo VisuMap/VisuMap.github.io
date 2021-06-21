@@ -61,7 +61,7 @@ Services to facilitate single cell RNA sequence (scRNA-seq) analysis. Implements
 </PluginList>
 
 <AppList>
-<AppInfo Name="VisuMap" Version="5.0" Builder="956" Source="&SrcPx;VisuMap5_0.msi" Size="10812416"/>
+<AppInfo Name="VisuMap" Version="5.0" Builder="957" Source="&SrcPx;VisuMap5_0.msi" Size="8897024"/>
 </AppList>
 
 </PluginInfo>
