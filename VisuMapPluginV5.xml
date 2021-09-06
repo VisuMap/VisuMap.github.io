@@ -6,7 +6,7 @@
 
 <PluginList>
 
-<Plugin Name="Clip Recorder" Version="1.9" Source="&SrcPx;ClipRecorder.zip">
+<Plugin Name="Clip Recorder" Version="1.10" Source="&SrcPx;ClipRecorder.zip">
 A plugin to record map snapshots during the MDS learning process.
 </Plugin>
 
