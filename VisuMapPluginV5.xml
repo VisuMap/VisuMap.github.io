@@ -46,7 +46,7 @@ A plugin for data cleansing services.
 Some custom bitmap glyhsets.
 </Plugin>
 
-<Plugin Name="Genetic Analysis" Version="1.3" Source="&SrcPx;GeneticAnalysis.zip">
+<Plugin Name="Genetic Analysis" Version="1.4" Source="&SrcPx;GeneticAnalysis.zip">
 Plugin for various services related to genetics. Imorter for fasta, fastq and beggraph files.
 </Plugin>
 
