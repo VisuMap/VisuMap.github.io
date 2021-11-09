@@ -66,7 +66,7 @@ The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx
 </PluginList>
 
 <AppList>
-<AppInfo Name="VisuMap" Version="5.0" Builder="965" Source="&SrcPx;VisuMap5_0.msi" Size="13652480"/>
+<AppInfo Name="VisuMap" Version="5.0" Builder="965" Source="&SrcPx;VisuMap5_0.msi" Size="13653504"/>
 </AppList>
 
 </PluginInfo>
