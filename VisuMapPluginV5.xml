@@ -23,7 +23,7 @@ A collection of metrics for graph structural data (a la adjacency matrix importe
 </Plugin>
 
 <Plugin Name="Custom Importer" Version="2.13" Source="&SrcPx;CustomImporter.zip">
-A collection of custom importers. Supported file formats: arff, cel, sdf, mol, fcs, mtx and a configuable CSV format filter.
+A collection of custom importers. Supported file formats: arff, cel, sdf, mol, fcs, mtx, mtx.gz and a configuable CSV format filter.
 </Plugin>
 
 <Plugin Name="Wave Transforms" Version="1.2" Source="&SrcPx;WaveTransforms.zip">
