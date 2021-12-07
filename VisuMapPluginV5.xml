@@ -26,7 +26,7 @@ A collection of metrics for graph structural data (a la adjacency matrix importe
 A collection of custom importers. Supported file formats: arff, cel, sdf, mol, fcs, mtx, mtx.gz and a configuable CSV format filter.
 </Plugin>
 
-<Plugin Name="Wave Transforms" Version="1.2" Source="&SrcPx;WaveTransforms.zip">
+<Plugin Name="Wave Transforms" Version="1.3" Source="&SrcPx;WaveTransforms.zip">
 A set of wave transformations like Fourier and Wavelet transformations. See the help menu of VisuMap "About WaveTransforms" for more information after installed this plugin.
 </Plugin>
 
