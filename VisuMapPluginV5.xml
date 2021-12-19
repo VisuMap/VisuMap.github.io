@@ -70,7 +70,7 @@ Scripts to generate and manage deep neural net models for embedding maps. This p
 </PluginList>
 
 <AppList>
-<AppInfo Name="VisuMap" Version="5.0" Builder="967" Source="&SrcPx;VisuMap5_0.msi" Size="13657600"/>
+<AppInfo Name="VisuMap" Version="5.0" Builder="968" Source="&SrcPx;VisuMap5_0.msi" Size="13671936"/>
 </AppList>
 
 </PluginInfo>
