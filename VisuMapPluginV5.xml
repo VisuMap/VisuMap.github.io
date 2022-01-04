@@ -67,6 +67,10 @@ The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx
 Scripts to generate and manage deep neural net models for embedding maps. This plugin uses pytorch library, and optionally CUDA/GPU services.
 </Plugin>
 
+<Plugin Name="DataLink" Version="1.0" Source="&SrcPx;DataLink.zip">
+Plugin to help python programs to communicate with VisuMap. A numpy file importer is also included. 
+</Plugin>
+
 </PluginList>
 
 <AppList>
