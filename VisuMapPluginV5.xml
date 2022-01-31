@@ -63,7 +63,7 @@ Scripts to create heatmap for single cell RNA expression data with dual sorting,
 The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx) files.
 </Plugin>
 
-<Plugin Name="VisuModelling" Version="1.1" Source="&SrcPx;VisuModelling.zip">
+<Plugin Name="VisuModelling" Version="1.2" Source="&SrcPx;VisuModelling.zip">
 Scripts to create deep learning models for embedding and clustering. This plugin uses tensorflow library, and optionally CUDA/GPU services.
 </Plugin>
 
