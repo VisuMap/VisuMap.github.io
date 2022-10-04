@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE PluginInfo [
-<!ENTITY SrcPx "https://visumap.github.io/images/">
+<!ENTITY SrcPx "https://visumap.com/images/">
 ]>
 <PluginInfo xmlns="urn:VisuMap.Technologies:VisuMap">
 
