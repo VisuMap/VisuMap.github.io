@@ -58,7 +58,7 @@ Data modeling with deep artificial neural networks. TensorFlow version 1.12 must
 Services to facilitate single cell RNA sequence (scRNA-seq) analysis. Implements the SC.DualEmbedding and SC.DualCorrelation distances functions.
 </Plugin>
 
-<Plugin Name="Heatmap Atlas" Version="1.3" Source="&SrcPx;HeatmapAtlas.zip">
+<Plugin Name="Heatmap Atlas" Version="1.4" Source="&SrcPx;HeatmapAtlas.zip">
 Scripts to create heatmap for single cell RNA expression data with dual sorting, mapping and clustering. 
 The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx) files.
 </Plugin>
@@ -67,7 +67,7 @@ The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx
 Scripts to create deep learning models for embedding and clustering. This plugin uses tensorflow library, and optionally CUDA/GPU services.
 </Plugin>
 
-<Plugin Name="DataLink" Version="1.2" Source="&SrcPx;DataLink.zip">
+<Plugin Name="DataLink" Version="1.3" Source="&SrcPx;DataLink.zip">
 Plugin to help python programs to communicate with VisuMap. A numpy file importer is also included. 
 </Plugin>
 
