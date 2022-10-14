@@ -67,7 +67,7 @@ The module also provides services to import Loom, H5, H5AD and MarketMatrix (mtx
 Scripts to create deep learning models for embedding and clustering. This plugin uses tensorflow library, and optionally CUDA/GPU services.
 </Plugin>
 
-<Plugin Name="Data Link" Version="1.3" Source="&SrcPx;DataLink.zip">
+<Plugin Name="Data Link" Version="1.4" Source="&SrcPx;DataLink.zip">
 Plugin to help python programs to communicate with VisuMap. A numpy file importer is also included. 
 </Plugin>
 
