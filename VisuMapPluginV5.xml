@@ -74,7 +74,7 @@ Plugin to help python programs to communicate with VisuMap; A numpy data importe
 </PluginList>
 
 <AppList>
-<AppInfo Name="VisuMap" Version="6.0" Builder="989" Source="&SrcPx;VisuMap6_0.msi" Size="14272000"/>
+<AppInfo Name="VisuMap" Version="6.0" Builder="989" Source="&SrcPx;VisuMap6_0.msi" Size="14274048"/>
 </AppList>
 
 </PluginInfo>
