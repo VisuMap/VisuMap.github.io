@@ -71,6 +71,10 @@ Scripts to create deep learning models for embedding and clustering. This plugin
 Plugin to help python programs to communicate with VisuMap; A numpy data importer; Stubs python scripts to use SciLearn, OpenTsne, umap and BH-SNE. 
 </Plugin>
 
+<Plugin Name="SeqVis" Version="1.0" Source="&SrcPx;SeqModelling.zip">
+Plugin to visualize and explore polypeptide sequences, especially protein sequences from the PDB database.
+</Plugin>
+
 </PluginList>
 
 <AppList>
