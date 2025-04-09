@@ -78,7 +78,7 @@ Plugin to visualize and explore polypeptide sequences, especially protein sequen
 </PluginList>
 
 <AppList>
-<AppInfo Name="VisuMap" Version="6.0" Builder="998" Source="&SrcPx;VisuMap6_0.msi" Size="20400128"/>
+<AppInfo Name="VisuMap" Version="6.0" Builder="998" Source="&SrcPx;VisuMap6_0.msi" Size="20399616"/>
 </AppList>
 
 </PluginInfo>
